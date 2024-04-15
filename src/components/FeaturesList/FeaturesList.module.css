@@ -1,0 +1,7 @@
+.features{
+    list-style-type: checkbox-emoji;
+}
+
+.features li{
+    margin: 0.6rem 0;
+}

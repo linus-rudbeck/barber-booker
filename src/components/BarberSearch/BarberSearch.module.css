@@ -1,0 +1,44 @@
+.searchForm {
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0;
+    width: 100%;
+    
+}
+
+.searchForm input,
+.searchForm select {
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: var(--main-border-radius);
+}
+
+.searchForm button {
+    padding: 0.4rem 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: var(--main-border-radius);
+    background-color: var(--secondary-background);
+    color: var(--secondary-color);
+    cursor: pointer;
+    transition: var(--main-background-transition);
+    font-weight: 700;
+}
+
+.searchForm button:hover {
+    background-color: var(--secondary-hover);
+}
+
+.barberResult {
+    width: 100%;
+    margin-bottom: 1.2rem;
+}
+
+.barberResult h3,
+.barberResult p{
+    margin: 0.3rem 0 0;
+}
+
+.barberResult p {
+    font-size: 0.8rem;
+}

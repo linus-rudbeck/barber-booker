@@ -1,0 +1,64 @@
+.contactForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    margin-top: 1rem;
+    width: 100%;
+    max-width: 420px;
+}
+
+.contactForm input,
+.contactForm textarea {
+    width: 100%;
+    padding: 0.4rem;
+    margin-bottom: 10px;
+    border: var(--main-border);
+    border-radius: var(--main-border-radius);
+}
+
+.formGroup {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.4rem;
+    width: 100%;
+}
+
+.formGroup label {
+    margin-bottom: 0.4rem;
+}
+
+.contactForm button {
+    padding: 0.6rem 1rem;
+    border: none;
+    border-radius: var(--main-border-radius);
+    background-color: var(--secondary-background);
+    color: var(--secondary-color);
+    cursor: pointer;
+    transition: var(--main-background-transition);
+    font-weight: 700;
+}
+
+.contactForm button:hover {
+    background-color: var(--secondary-hover);
+}
+
+.successMessage{
+    background: green;
+    color: white;
+    padding: 0.5rem;
+    border-radius: var(--main-border-radius);
+    margin: 2rem 0;
+    font-weight: 700;
+    text-align: center;
+}
+
+.loadingMessage{
+    background: orange;
+    color: black;
+    padding: 0.5rem;
+    border-radius: var(--main-border-radius);
+    margin: 2rem 0;
+    font-weight: 700;
+    text-align: center;
+}
